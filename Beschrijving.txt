@@ -1,0 +1,29 @@
+X-Y-Magazijnrek
+
+- schaalbaar
+- makkelijk uitbreidbaar
+- geen elektrische componenten aan het rek zelf (veiligheid en onderhoudbaarheid)
+- gedesigned met de bedoeling van de meeste componenten te 3D-printen
+- gebruikt zoveel mogelijk gestandardiseerde componenten die goedkoop verkrijgbaar zijn.
+- gedesigned met oog op veiligheid, snelle installatie, onderhoudbaarheid en gemak van productie.
+
+Dit is een conceptueel design van een robotisch magazijnrek dat lichte vracht kan wegzetten in grote magazijnrekken.
+Het mehanisme kan met minimale mechanische onderdelen switchen van rails waar deze op rijdt tussen beweging op de X-as en Y-as.
+Enkel de functionaliteit voor de beweging en switchen van en naar de x- en y-as zijn hier gedesigned.
+Voor vracht effectief weg te zetten en uit een schab te halen dient er nog een grijper mechanisme gedesigned te worden.
+
+De actieve component in dit magazijnrek is een kar die op rails rijdt. Bovenop de bestaande structurele rails van een magazijnrek
+worden additionele rails met tandlatten aan weerszijden geïnstalleerd. Op deze tandlatten rijdt als het ware de drager-kar die
+de producten in het rek wegzet. de drager-kar heeft 4 motor-groepen die beweging over X-en Y-assen mogelijk maken.
+wanneer het controller-algoritme bepaald dat de kar van as moet wisselen zal een duwer mechanisme indien nodig het roteerbare 
+rail-segment voor zich in de andere positie duwen. Elk roteerbaar rail-segment is uitgerust met een 45° Loadlimiter die in dit 
+geval niet de functie heeft om de maximale hoeveelheid torsie te limiteren maar om het rail segment in de volgende positie te zetten
+wanneer deze verder dan 45° geduwd wordt. Hiermee word en initieel desgignprobleem omtrendt het risico op het verlies van grip 
+op de rail-tandlatten en slijtage bij as-transitie opgelost. Wanneer de roteerbare rail-segmenten in de correcte positie staan,
+en alle 4 sensoren van elke motor-groep detecteren dat ze vlak boven het draaipunt van de roreerbare rail-segmenten staan,
+kan het motor-mehanisme in zijn geheel 90° draaien, en neemt hierbij de roteerbare rail-segmenten onder zich mee.
+de kar kan nu verder rijden op de andere as. 
+
+
+
+ mechanism.skp best te openen met sketchup3D
